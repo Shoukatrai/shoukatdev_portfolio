@@ -31,12 +31,12 @@ export const metadata = {
   authors: [{ name: "Shoukat Rai" }],
   creator: "Shoukat Rai",
   publisher: "Shoukat Dev",
-  metadataBase: new URL("https://shoukatdev.vercel.app/"),
+  metadataBase: new URL("https://shoukatrai.vercel.app/"),
   openGraph: {
     title: "Shoukat Dev | MERN Stack Developer",
     description:
       "Explore my portfolio — full-stack projects, professional experience, and modern web apps built with React, Next.js, and Node.js.",
-    url: "https://shoukatdev.vercel.app/",
+    url: "https://shoukatrai.vercel.app/",
     siteName: "Shoukat Dev Portfolio",
     images: [
       {
@@ -58,7 +58,7 @@ export const metadata = {
     images: ["/og-image.jpg"],
   },
   alternates: {
-    canonical: "https://shoukatdev.vercel.app/",
+    canonical: "https://shoukatrai.vercel.app/",
   },
 };
 
@@ -75,7 +75,7 @@ export default function RootLayout({ children }) {
               "@context": "https://schema.org",
               "@type": "Person",
               name: "Shoukat Rai",
-              url: "https://shoukatdev.vercel.app/",
+              url: "https://shoukatrai.vercel.app/",
               sameAs: [
                 "https://github.com/shoukatrai",
                 "https://linkedin.com/in/shoukatrai",
