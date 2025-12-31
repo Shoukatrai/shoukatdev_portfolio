@@ -2,7 +2,7 @@
 
 import { useRef } from "react";
 import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaGlobe } from "react-icons/fa";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 import { toastAlert } from "@/utils/toastAlert";
 
 export default function ContactPage() {
